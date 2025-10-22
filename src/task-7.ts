@@ -7,5 +7,5 @@ function getMessage(): Promise<string> {
 }
 
 getMessage().then((result) => {
-  console.log(result.toUpperCase()); 
+  console.log(result.toUpperCase());
 });
