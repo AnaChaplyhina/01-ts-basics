@@ -10,6 +10,10 @@ console.log(firstNumber);
 console.log(firstString);
 console.log(firstBoolean);
 
-const firstMixed = getFirstElement([1, 'b', false]);
+const firstMixed = getFirstElement<(string | number | boolean)>([
+  1,
+  'b',
+  false,
+]);
 
 console.log('First mixed element:', firstMixed);
